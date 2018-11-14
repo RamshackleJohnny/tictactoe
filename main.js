@@ -122,8 +122,6 @@ document.getElementById('thirdblock').addEventListener('click', function test3()
       return blue
     }
   }
-  //  document.getElementById('thirdblock').removeEventListener('click', test3)
-
 })
 
 // Block four
@@ -142,7 +140,6 @@ document.getElementById('fourthblock').addEventListener('click', function test4(
       return blue
     }
   }
-  document.getElementById('fourthblock').removeEventListener('click', test4)
 
 })
 
@@ -162,7 +159,6 @@ document.getElementById('fithblock').addEventListener('click', function test5() 
       return blue
     }
   }
-  //document.getElementById('fithblock').removeEventListener('click', test5)
 
 })
 
@@ -182,7 +178,6 @@ document.getElementById('sixthblock').addEventListener('click', function test6()
       return blue
     }
   }
-  //document.getElementById('sixthblock').removeEventListener('click', test6)
 
 })
 
@@ -202,7 +197,6 @@ document.getElementById('seventhblock').addEventListener('click', function test7
       return blue
     }
   }
-  //document.getElementById('seventhblock').removeEventListener('click', test7)
 
 })
 
