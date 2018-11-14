@@ -1,0 +1,18 @@
+.blocks {
+  border: 2px solid black;
+  padding: 3%;
+  display: inline-block;
+  background-color: lightgoldenrodyellow;
+}
+
+html, p {
+  background-color: black;
+}
+
+#xo, #xo1, #xo2,#xo3,#xo4,#xo5,#xo6,#xo7,#xo8 {
+  font-size: 5em;
+  color: darkgoldenrod;
+  font-family: 'Allerta Stencil', sans-serif;
+  text-align: center;
+  position: fixed;
+}
