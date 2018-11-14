@@ -9,10 +9,10 @@ function refreshData() {
   x = 5; // 5 Seconds
 
   if (red.includes('1' && '2' && '3') || red.includes('4' && '5' && '6') || red.includes('7' && '8' && '9') || red.includes('1' && '4' && '7') || red.includes('2' && '5' && '8') || red.includes('3' && '6' && '9') || red.includes('1' && '5' && '9') || red.includes('3' && '5' && '7')) {
-    console.log('IT WORKED')
+    console.log('RED WON')
   }
   if (blue.includes('1' && '2' && '3') || blue.includes('4' && '5' && '6') || blue.includes('7' && '8' && '9') || blue.includes('1' && '4' && '7') || blue.includes('2' && '5' && '8') || blue.includes('3' && '6' && '9') || blue.includes('1' && '5' && '9') || blue.includes('3' && '5' && '7')) {
-    console.log('PLEASE END MY SUFFERING')
+    console.log('BLUE WON')
   }
   setTimeout(refreshData, x * 1000);
  }
